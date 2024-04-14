@@ -1,0 +1,171 @@
+[
+    {
+      "id": 1,
+      "name": "Dr. John Smith",
+      "specialty": "Cardiology",
+      "experience": "15 years",
+      "rating": 4.8,
+      "testimonials": [
+        "Highly skilled and compassionate.",
+        "Best cardiologist in town!",
+        "Saved my life. Forever grateful."
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Dr. Emily Johnson",
+      "specialty": "Cardiology",
+      "experience": "12 years",
+      "rating": 4.5,
+      "testimonials": [
+        "Very thorough and caring.",
+        "Explains everything clearly.",
+        "Great listener."
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Dr. Michael Brown",
+      "specialty": "Cardiology",
+      "experience": "18 years",
+      "rating": 4.9,
+      "testimonials": [
+        "Outstanding cardiologist!",
+        "Exceptional bedside manner.",
+        "Highly recommend."
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Dr. Sarah Lee",
+      "specialty": "Cardiology",
+      "experience": "10 years",
+      "rating": 4.3,
+      "testimonials": [
+        "Caring and knowledgeable.",
+        "Great at explaining complex issues.",
+        "Always puts patients first."
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Dr. David Miller",
+      "specialty": "Pediatrics",
+      "experience": "14 years",
+      "rating": 4.7,
+      "testimonials": [
+        "Wonderful with children.",
+        "Very patient and understanding.",
+        "Highly recommend for kids."
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Dr. Jessica Martinez",
+      "specialty": "Pediatrics",
+      "experience": "11 years",
+      "rating": 4.6,
+      "testimonials": [
+        "Amazing pediatrician!",
+        "Truly cares about her patients.",
+        "Always goes above and beyond."
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Dr. Ryan Nguyen",
+      "specialty": "Pediatrics",
+      "experience": "16 years",
+      "rating": 4.9,
+      "testimonials": [
+        "Excellent with kids.",
+        "Very knowledgeable and reassuring.",
+        "Best pediatrician we've ever had."
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Dr. Olivia Garcia",
+      "specialty": "Pediatrics",
+      "experience": "9 years",
+      "rating": 4.4,
+      "testimonials": [
+        "Great with children of all ages.",
+        "Very gentle and caring approach.",
+        "Highly recommended for parents."
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Dr. Thomas Clark",
+      "specialty": "Orthopedics",
+      "experience": "13 years",
+      "rating": 4.7,
+      "testimonials": [
+        "Excellent orthopedic surgeon.",
+        "Helped me recover from a serious injury.",
+        "Very skilled and compassionate."
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Dr. Sophia Wilson",
+      "specialty": "Orthopedics",
+      "experience": "7 years",
+      "rating": 4.2,
+      "testimonials": [
+        "Knowledgeable and attentive.",
+        "Explains treatment options thoroughly.",
+        "Would recommend for orthopedic issues."
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Dr. Ethan Adams",
+      "specialty": "Orthopedics",
+      "experience": "19 years",
+      "rating": 4.9,
+      "testimonials": [
+        "Skilled and caring orthopedic surgeon.",
+        "Helped me recover from a complicated surgery.",
+        "Highly recommend for orthopedic care."
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Dr. Ava Hernandez",
+      "specialty": "Orthopedics",
+      "experience": "10 years",
+      "rating": 4.5,
+      "testimonials": [
+        "Great orthopedic doctor!",
+        "Very professional and caring.",
+        "Excellent communication skills."
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Dr. James Wilson",
+      "specialty": "Dermatology",
+      "experience": "14 years",
+      "rating": 4.6,
+      "testimonials": [
+        "Highly recommend for skin issues.",
+        "Very knowledgeable and thorough.",
+        "Great dermatologist!"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Dr. Emma Thompson",
+      "specialty": "Dermatology",
+      "experience": "8 years",
+      "rating": 4.3,
+      "testimonials": [
+        "Caring and attentive dermatologist.",
+        "Excellent at diagnosing skin conditions.",
+        "Would recommend to anyone needing dermatology care."
+      ]
+    }
+  ]
+  
