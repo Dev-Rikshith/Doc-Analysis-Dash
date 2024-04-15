@@ -37,7 +37,7 @@ function Profilepicture(props) {
 
   return (
     <div className="profileimage">
-      <img src={list[props.id]} style={{ width: "250px", height: "auto", borderRadius: "50%", marginRight: "20px" }} alt="Doctor Image" />
+      <img src={list[props.id]} alt="Doctor Image" />
     </div>
   );
 }

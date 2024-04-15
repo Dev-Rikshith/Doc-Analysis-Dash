@@ -1,0 +1,37 @@
+canvas {
+    border: 1px solid #ccc; /* Add border to the canvas */
+    border-radius: 5px; /* Add border radius for a rounded appearance */
+  }
+  
+  /* Style the graph lines */
+  canvas.line-graph {
+    margin-top: 20px; /* Add some margin to separate the graph from other content */
+  }
+  
+  canvas.line-graph path {
+    fill: none; /* Ensure lines are not filled */
+    stroke: #007bff; /* Set line color */
+    stroke-width: 2px; /* Set line width */
+  }
+  
+  canvas.line-graph circle {
+    fill: #007bff; /* Set circle fill color */
+  }
+  
+  /* Style axis labels */
+  canvas.line-graph text {
+    font-family: Arial, sans-serif; /* Specify font */
+    font-size: 12px; /* Specify font size */
+    fill: #333; /* Set text color */
+  }
+  
+  /* Style axis lines */
+  canvas.line-graph line {
+    stroke: #ccc; /* Set axis line color */
+  }
+  
+  /* Style grid lines */
+  canvas.line-graph .grid-line {
+    stroke: #eee; /* Set grid line color */
+  }
+  
