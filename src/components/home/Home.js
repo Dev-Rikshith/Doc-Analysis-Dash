@@ -40,9 +40,10 @@ function Home() {
                         <option value="Dr. Emma Thompson">Dr. Emma Thompson (Dermatology)</option>
                     </select>
                 </div>
+
                 <button className="search-button" onClick={handleClick}>Go</button>
+
             </div>
-            <h1>Selected option: {selectedOption}</h1>
         </div>
     );
 }
