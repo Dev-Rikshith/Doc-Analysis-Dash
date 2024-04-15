@@ -9,6 +9,10 @@ function Home() {
         setSelectedOption(event.target.value);
     };
 
+    function buttonClick() {
+        window.location.href = `/dashboard?selectedValue=${selectedOption}`;
+    }
+
     return (
         <div className="image-container">
             <img className="image" src={Image} alt="Hospital interior" />
@@ -32,9 +36,8 @@ function Home() {
                         <option value="Dr. Emma Thompson">Dr. Emma Thompson (Dermatology)</option>
                     </select>
                 </div>
-                <button className="search-button">Go</button>
+                <button className="search-button" onClick={buttonClick}>Go</button>
             </div>
-            <h1>Selected option: {selectedOption}</h1>
         </div>
     );
 }
