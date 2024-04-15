@@ -1,0 +1,97 @@
+/* Dashboard container */
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Profile section */
+  .Profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Profile picture */
+  .Profile picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  /* Details section */
+  .Details {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 300px; /* Limit width to prevent excessive stretching */
+    margin-bottom: 20px;
+  }
+  
+  /* Testimonials and BarGraph sections */
+  .Testimonials,
+  .BarGraph {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    gap: 20px;
+    max-width: 300px; /* Limit width to prevent excessive stretching */
+  }
+  
+  /* Testimonials section */
+  .Testimonials {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Bar graph section */
+  .BarGraph {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Paragraph styles */
+  p {
+    margin: 5px 0;
+  }
+  
+  /* Responsive layout */
+  @media (min-width: 768px) {
+    .dashboard {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+  
+    /* Profile picture occupies full width on larger screens */
+    .Profile picture {
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+      margin-right: 0;
+    }
+  
+    .Profile {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .Details {
+      max-width: none; /* Remove max-width for larger screens */
+      width: 100%;
+    }
+  
+    /* Center align Testimonials and BarGraph on larger screens */
+    .Testimonials,
+    .BarGraph {
+      align-items: center;
+      text-align: center;
+    }
+  }
+  
