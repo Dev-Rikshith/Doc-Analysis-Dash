@@ -1,0 +1,4 @@
+.profileimage {
+    width: 10px !important; /* Adjust this value as needed */
+    height: 10px; /* This will maintain the aspect ratio */
+}

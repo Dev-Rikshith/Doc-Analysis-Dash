@@ -13,10 +13,10 @@ import Image11 from "../../Assets/11.jpeg";
 import Image12 from "../../Assets/12.jpeg";
 
 
-function Profilepicture() {
+function Profilepicture(props) {
 
     const list = [
-       "../../Assets/1.jpeg",
+        Image1,
         Image2,
         Image3,
         Image4,
@@ -27,13 +27,12 @@ function Profilepicture() {
         Image9,
         Image10,
         Image11,
-        Image12
+        Image12,
     ];
 
-
   return (
-    <div>
-      <img className="profileimage" src={list[0]} alt="Doctor Image" />
+    <div className="profileimage">
+      <img src={list[props.id]} alt="Doctor Image" />
     </div>
   );
 }
