@@ -10,11 +10,27 @@ function Dashboard() {
 
   const doctor = DocData.find(doctor => doctor.name === selectedValue);
 
+<<<<<<< HEAD
+const Dashboard = () => {
+    const queryParams = new URLSearchParams(window.location.search);
+    const selectedValue = queryParams.get('selectedValue');
+
+    const doctor = DocData.find(doctor => doctor.name === selectedValue);
+
+    return (
+        <div>
+            <h2>{doctor.specialty}</h2>
+            <Profilepicture id={doctor.id}/>
+        </div>
+    );
+};
+=======
   return (
       <div>
           <h2>{doctor.specialty}</h2>
       </div>
   );
 }
+>>>>>>> 5a079734986bbbee6d90fc4e4b1a649fb1b1f512
 
 export default Dashboard;
