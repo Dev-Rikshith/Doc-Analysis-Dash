@@ -9,7 +9,15 @@
         "Highly skilled and compassionate.",
         "Best cardiologist in town!",
         "Saved my life. Forever grateful."
-      ]
+      ],
+      "ratings": [4.7, 4.5, 4.2],
+      "patientData": {
+        "2019": 150,
+        "2020": 180,
+        "2021": 200,
+        "2022": 190,
+        "2023": 210
+      }
     },
     {
       "id": 2,
@@ -21,7 +29,15 @@
         "Very thorough and caring.",
         "Explains everything clearly.",
         "Great listener."
-      ]
+      ],
+      "ratings":[4.7, 4.3, 4.0],
+      "patientData": {
+        "2019": 130,
+        "2020": 146,
+        "2021": 129,
+        "2022": 145,
+        "2023": 160
+      }
     },
     {
       "id": 3,
@@ -33,7 +49,15 @@
         "Outstanding cardiologist!",
         "Exceptional bedside manner.",
         "Highly recommend."
-      ]
+      ],
+      "ratings":[4.9, 4.8, 4.5],
+      "patientData": {
+        "2019": 200,
+        "2020": 220,
+        "2021": 230,
+        "2022": 250,
+        "2023": 275
+      }
     },
     {
       "id": 4,
@@ -45,7 +69,15 @@
         "Caring and knowledgeable.",
         "Great at explaining complex issues.",
         "Always puts patients first."
-      ]
+      ],
+      "ratings":[4.4, 4.2, 4.0],
+      "patientData": {
+        "2019": 120,
+        "2020": 130,
+        "2021": 146,
+        "2022": 128,
+        "2023": 145
+      }
     },
     {
       "id": 5,
@@ -57,7 +89,15 @@
         "Wonderful with children.",
         "Very patient and understanding.",
         "Highly recommend for kids."
-      ]
+      ],
+      "ratings":[4.7, 4.5, 4.2],
+      "patientData": {
+        "2019": 180,
+        "2020": 200,
+        "2021": 215,
+        "2022": 214,
+        "2023": 237
+      }
     },
     {
       "id": 6,
@@ -69,7 +109,15 @@
         "Amazing pediatrician!",
         "Truly cares about her patients.",
         "Always goes above and beyond."
-      ]
+      ],
+      "ratings":[4.6, 4.4, 4.1],
+      "patientData": {
+        "2019": 160,
+        "2020": 170,
+        "2021": 175,
+        "2022": 180,
+        "2023": 195
+      }
     },
     {
       "id": 7,
@@ -81,7 +129,15 @@
         "Excellent with kids.",
         "Very knowledgeable and reassuring.",
         "Best pediatrician we've ever had."
-      ]
+      ],
+      "ratings":[4.9, 4.8, 4.5],
+      "patientData": {
+        "2019": 150,
+        "2020": 165,
+        "2021": 180,
+        "2022": 195,
+        "2023": 230
+      }
     },
     {
       "id": 8,
@@ -93,7 +149,15 @@
         "Great with children of all ages.",
         "Very gentle and caring approach.",
         "Highly recommended for parents."
-      ]
+      ],
+      "ratings":[4.4, 4.2, 3.9],
+      "patientData": {
+        "2019": 140,
+        "2020": 155,
+        "2021": 139,
+        "2022": 160,
+        "2023": 165
+      }
     },
     {
       "id": 9,
@@ -105,7 +169,15 @@
         "Excellent orthopedic surgeon.",
         "Helped me recover from a serious injury.",
         "Very skilled and compassionate."
-      ]
+      ],
+      "ratings":[4.7, 4.5, 4.2],
+      "patientData":{
+        "2019": 120,
+        "2020": 140,
+        "2021": 143,
+        "2022": 150,
+        "2023": 158
+      }
     },
     {
       "id": 10,
@@ -117,7 +189,15 @@
         "Knowledgeable and attentive.",
         "Explains treatment options thoroughly.",
         "Would recommend for orthopedic issues."
-      ]
+      ],
+      "ratings":[4.2, 4.0, 3.7],
+      "patientData":{
+        "2019": 230,
+        "2020": 210,
+        "2021": 173,
+        "2022": 180,
+        "2023": 193
+      }
     },
     {
       "id": 11,
@@ -129,7 +209,15 @@
         "Skilled and caring orthopedic surgeon.",
         "Helped me recover from a complicated surgery.",
         "Highly recommend for orthopedic care."
-      ]
+      ],
+      "ratings":[4.9, 4.8, 4.6],
+      "patientData":{
+        "2019": 185,
+        "2020": 210,
+        "2021": 235,
+        "2022": 238,
+        "2023": 251
+      }
     },
     {
       "id": 12,
@@ -141,7 +229,15 @@
         "Great orthopedic doctor!",
         "Very professional and caring.",
         "Excellent communication skills."
-      ]
+      ],
+      "ratings":[4.5, 4.3, 4.1],
+      "patientData":{
+        "2019": 128,
+        "2020": 142,
+        "2021": 150,
+        "2022": 166,
+        "2023": 179
+      }
     },
     {
       "id": 13,
@@ -153,7 +249,15 @@
         "Highly recommend for skin issues.",
         "Very knowledgeable and thorough.",
         "Great dermatologist!"
-      ]
+      ],
+      "ratings":[4.6, 4.4, 4.1],
+      "patientData":{
+        "2019": 207,
+        "2020": 191,
+        "2021": 215,
+        "2022": 230,
+        "2023": 226
+      }
     },
     {
       "id": 14,
@@ -165,7 +269,15 @@
         "Caring and attentive dermatologist.",
         "Excellent at diagnosing skin conditions.",
         "Would recommend to anyone needing dermatology care."
-      ]
+      ],
+      "ratings":[4.3, 4.1, 3.8],
+      "patientData":{
+        "2019":218,
+        "2020":235,
+        "2021":207,
+        "2022":201,
+        "2023":223
+      }
     }
   ]
   
