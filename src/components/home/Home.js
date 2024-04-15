@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './Home.css';
 import Image from '../../Assets/blur-hospital.jpg';
+import { Navigate, useNavigate } from 'react-router-dom';
+
 
 function Home() {
     const [selectedOption, setSelectedOption] = useState('');
@@ -8,6 +10,12 @@ function Home() {
     const handleSelectChange = (event) => {
         setSelectedOption(event.target.value);
     };
+
+    const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/dashboard', { state: { data: selectedOption } });
+  };
 
     return (
         <div className="image-container">
@@ -32,7 +40,7 @@ function Home() {
                         <option value="Dr. Emma Thompson">Dr. Emma Thompson (Dermatology)</option>
                     </select>
                 </div>
-                <button className="search-button">Go</button>
+                <button className="search-button" onClick={handleClick}>Go</button>
             </div>
             <h1>Selected option: {selectedOption}</h1>
         </div>
