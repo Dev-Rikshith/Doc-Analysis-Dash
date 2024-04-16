@@ -29,7 +29,7 @@ function Dashboard() {
           <p><strong>Name:</strong> {doctor.name}</p>
           <p><strong>Speciality:</strong> {doctor.specialty}</p>
           <p><strong>Experience:</strong> {doctor.experience}</p>
-          <p><strong>Experience:</strong> {doctor.rating}</p>
+          <p><strong>Overall Rating:</strong> {doctor.rating}</p>
         </div>
         <div className="PatientGraph">
           <Patientgraph id={doctor.id}/>
