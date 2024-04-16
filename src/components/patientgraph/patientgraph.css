@@ -1,0 +1,9 @@
+.line-graph {
+  position: relative; /* Change position to relative */
+  border: 1px solid #ccc; /* Add border for better visibility */
+  background-color: #ebe9e9; /* Set background color */
+  border-radius: 20px;
+  width: 700px;
+  height: 300px;
+  margin-left: 100px;
+}
