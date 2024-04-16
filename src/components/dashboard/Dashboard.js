@@ -13,6 +13,7 @@ function Dashboard() {
   return (
       <div>
           <h2>{doctor.specialty}</h2>
+          <Profilepicture id={doctor.id}/>
       </div>
   );
 }
