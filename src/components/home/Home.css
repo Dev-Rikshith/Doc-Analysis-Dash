@@ -23,14 +23,24 @@
   }
 
   /* Style for the search bar */
+
+  .search-spec {
+    height: 75px;
+    width: 250px;
+    font-size: 25px;
+    text-align: left;
+    border: 1px solid #ccc;
+    border-radius: 25px 0px 0px 25px; /* Rounded edges */
+    outline: none;
+  }
   
-  .search-bar {
+  .search-doctor {
     height: 75px;
     width: 750px;
     font-size: 25px;
     text-align: left;
     border: 1px solid #ccc;
-    border-radius: 25px 0px 0px 25px; /* Rounded edges */
+    border-radius: 0px 0px 0px 0px; /* Rounded edges */
     outline: none;
   }
   

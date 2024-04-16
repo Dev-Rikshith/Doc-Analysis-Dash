@@ -29,15 +29,15 @@ function Profilepicture(props) {
         Image8,
         Image9,
         Image10,
-        Image11,
         Image12,
+        Image11,
         Image13,
         Image14
     ];
 
   return (
     <div className="profileimage">
-      <img src={list[props.id]} alt="Doctor Image" />
+      <img src={list[props.id-1]} alt="Doctor Image" />
     </div>
   );
 }
