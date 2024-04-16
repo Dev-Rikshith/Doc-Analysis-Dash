@@ -9,6 +9,8 @@ function RatingsGraph(props){
 
     return (
         <div className="bar-chart">
+          <h2>Analysis of the doctor's surgical outcomes across varying levels of difficulty</h2>
+          <br></br>
           {ratings.map((rating, index) => (
             <div key={index}>
               <div className="label">{`${categories[index]}: ${rating}`}</div>

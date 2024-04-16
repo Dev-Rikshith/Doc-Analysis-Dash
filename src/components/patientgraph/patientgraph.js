@@ -2,41 +2,44 @@ import DocData from '../../data/doctors.json';
 import "./patientgraph.css";
 import React, { useEffect, useRef } from 'react';
 
-function Patientgraph(props){
-    const doctor = DocData.find(doctor => doctor.id === props.id);
-    const patientData = doctor.patientData;
+function Patientgraph(props) {
+  const doctor = DocData.find(doctor => doctor.id === props.id);
+  const patientData = doctor.patientData;
 
-    const canvasRef = useRef(null);
+  const canvasRef = useRef(null);
 
-    useEffect(() => {
+  useEffect(() => {
     const canvas = canvasRef.current;
     const ctx = canvas.getContext('2d');
 
     // Set canvas size
-    canvas.width = 600;
-    canvas.height = 400;
+    canvas.width = 400; // Adjusted canvas width
+    canvas.height = 300; // Adjusted canvas height
+
+    // Clear canvas before drawing
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
 
     // Draw axes
     ctx.beginPath();
     ctx.moveTo(50, 50);
-    ctx.lineTo(50, 350);
-    ctx.lineTo(550, 350);
+    ctx.lineTo(50, 250); // Adjusted y-axis length
+    ctx.lineTo(350, 250); // Adjusted x-axis length
     ctx.stroke();
 
     // Draw x-axis labels
     const years = Object.keys(patientData);
-    const xSpacing = 500 / (years.length - 1);
+    const xSpacing = 300 / (years.length - 1); // Adjusted xSpacing
     for (let i = 0; i < years.length; i++) {
       const x = 50 + i * xSpacing;
-      ctx.fillText(years[i], x, 370);
+      ctx.fillText(years[i], x, 270); // Adjusted y-coordinate for x-axis labels
     }
 
     // Draw y-axis labels
     const maxPatients = Math.max(...Object.values(patientData));
-    const ySpacing = 300 / maxPatients;
-    for (let i = 0; i <= 10; i++) {
-      const y = 350 - i * 30;
-      ctx.fillText(i * 30, 20, y);
+    const ySpacing = 200 / maxPatients; // Adjusted ySpacing
+    for (let i = 0; i <= 5; i++) { // Adjusted the number of y-axis labels
+      const y = 250 - i * 50; // Adjusted y-coordinate for y-axis labels
+      ctx.fillText(i * 50, 20, y);
     }
 
     // Draw patient data
@@ -45,7 +48,7 @@ function Patientgraph(props){
     ctx.lineWidth = 2;
     for (let i = 0; i < years.length; i++) {
       const x = 50 + i * xSpacing;
-      const y = 350 - patientData[years[i]] * ySpacing;
+      const y = 250 - patientData[years[i]] * ySpacing;
       if (i === 0) {
         ctx.moveTo(x, y);
       } else {

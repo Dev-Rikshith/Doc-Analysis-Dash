@@ -6,6 +6,7 @@ import Testimonals from "../testimonals/testimonals";
 import RatingsGraph from "../ratingsgraph/ratingsgraph";
 import Patientgraph from "../patientgraph/patientgraph";
 import "./Dashboard.css";
+import Image from '../../Assets/blur-hospital.jpg';
 
 function Dashboard() {
   const location = useLocation();
@@ -15,20 +16,25 @@ function Dashboard() {
   const doctor = DocData.find(doctor => doctor.name === selectedValue);
 
   return (
-    <div>
-      <div className="First-Half">
-        <div className="Profile"><Profilepicture id={doctor.id} /></div>
-        <div className="Testimonals"><Testimonals id={doctor.id} /></div>
-        <div className="BarGraph"><RatingsGraph id={doctor.id}/></div>
+    <div className = "card">
+      <div className="first-container">
+        <div className="First-Half">
+          <div className="Profile"><Profilepicture id={doctor.id} /></div>
+          <div className="Testimonals"><Testimonals id={doctor.id} /></div>
+          <div className="BarGraph"><RatingsGraph id={doctor.id}/></div>
+        </div>
       </div>
       <div className="Second-Half">
         <div className="Details">
-          <p>Name: {doctor.name}</p>
-          <p>Speciality: {doctor.specialty}</p>
-          <p>Experience: {doctor.experience}</p>
-          <p>Overall Rating: {doctor.rating}</p>
+          <p><strong>Name:</strong> {doctor.name}</p>
+          <p><strong>Speciality:</strong> {doctor.specialty}</p>
+          <p><strong>Experience:</strong> {doctor.experience}</p>
+          <p><strong>Overall Rating:</strong> {doctor.rating}</p>
         </div>
-        <div className="PatientGraph"><Patientgraph id={doctor.id}/></div>
+        <div className="PatientGraph">
+          <Patientgraph id={doctor.id}/>
+          <p className="xxx"><strong>This graph depicts no.of patients that are treated by the doctor in the years respectively.</strong></p>
+        </div>
       </div>
     </div>
   );
