@@ -1,0 +1,54 @@
+/* Testimonials.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+/* Style for each testimonial */
+.listofdoc {
+    background-color: #e3e1e1; /* White background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Title style */
+.testimonial-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333333; /* Dark gray text color */
+}
+
+/* Testimonial list style */
+.testimonial-list {
+    padding: 0;
+    margin: 0;
+}
+
+/* Individual testimonial item style */
+.testimonial {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #555555; /* Gray text color */
+}
+
+.header-container {
+    background-color: #f4f7fa;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-color: #f7f7f7; /* Light gray background */
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-right: 40px;
+  }
+  
+  .header {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
