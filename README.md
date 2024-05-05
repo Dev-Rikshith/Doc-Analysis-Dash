@@ -8,3 +8,12 @@ The project involves collecting comprehensive data pertaining to doctors' profes
 
 **Implementation:**
 
+![Search for the doctor and speciality needed](https://github.com/VyshnaviKurivella/Doc-Analysis-Dash/blob/main/src/Wireframes/SearchScreen.png)
+
+![Select the speciality to get the list of doctors](https://github.com/VyshnaviKurivella/Doc-Analysis-Dash/blob/main/src/Wireframes/SelectSpeciality.png)
+
+![The list of doctors specialized in the selected field](https://github.com/VyshnaviKurivella/Doc-Analysis-Dash/blob/main/src/Wireframes/SelectDoctor.png)
+
+![Click on go to get the details of the selected doctor](https://github.com/VyshnaviKurivella/Doc-Analysis-Dash/blob/main/src/Wireframes/ClickGo.png)
+
+![The dashboard depicting the details of the doctor](https://github.com/VyshnaviKurivella/Doc-Analysis-Dash/blob/main/src/Wireframes/Board.png)
